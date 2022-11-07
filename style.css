@@ -35,7 +35,6 @@ input {
   top: 450px;
   background-color: #7bd806;
   cursor: pointer;
-  border-radius: 10px;
 }
 
 #btnNo {
@@ -44,5 +43,10 @@ input {
   top: 450px;
   background-color: #f4511e;
   transition: 0.3s;
-  border-radius: 10px;
+}
+input#btnYes {
+    border-radius: 10px;
+}
+nput#btnNo {
+    border-radius: 10px;
 }
