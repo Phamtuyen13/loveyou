@@ -1,15 +1,5 @@
 /*
-Snow Effect source: https://codepen.io/longzero/pen/Kwdbyj
-*/
-
-window.onload = function () {
-  //canvas init
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
-
-  //canvas dimensions
-  var W = window.innerWidth;
-  var H = window.innerHevar c = document.getElementById("canvas");
+var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 
 function resize() {
@@ -181,7 +171,7 @@ function collisionDetection(b){
 }
 
 function yesClick() {
-  alert("Tối nay, lên hồ chơi em nhé!");
+  alert("Tuần này, hôm nào em rảnh!");
 }
 
 function noHover() {
